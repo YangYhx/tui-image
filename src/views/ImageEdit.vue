@@ -78,7 +78,7 @@ const getFileNameAndExtension = (filename: String) => {
     extension: extension
   }
 }
-
+// 点击画板
 const clickCancas = () => {
   console.log(12313)
 }
