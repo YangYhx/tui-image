@@ -21,6 +21,11 @@ const router = createRouter({
       path: '/canvas-img',
       name: 'canvas-img',
       component: () => import('../views/CanvasImage.vue')
+    },
+    {
+      path: '/canvas-drag',
+      name: 'canvas-drag',
+      component: () => import('../views/DragImage.vue')
     }
   ]
 })
